@@ -54,7 +54,7 @@ def save_data(train_data: pd.DataFrame, test_data: pd.DataFrame) -> None:
 # Main Function
 def main() -> None:
 
-    test_size = load_params("C:\Data Analyst\CampusX Study Material\MLOPS\Practice Modules\session 11/dversioning-demo\params.yaml")
+    test_size = load_params("C:\Data Analyst\CampusX Study Material\MLOPS\Practice Modules\session 11/versioning-demo\params.yaml")
 
     df = load_data('https://raw.githubusercontent.com/campusx-official/jupyter-masterclass/main/tweet_emotions.csv')
 

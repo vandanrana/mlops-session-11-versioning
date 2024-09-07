@@ -30,9 +30,9 @@ def calculate_metrics(y_test, y_pred, y_pred_proba):
 
 def main():
 
-    clf = load_model("C:/Data Analyst/CampusX Study Material/MLOPS/Practice Modules/session 11/versioning-demo/models/model.pkl")
+    clf = load_model("C:/Data Analyst/CampusX Study Material/MLOPS/Practice Modules/versioning-demo/models/model.pkl")
 
-    test_data = load_data('./data/features/test_bow.csv')
+    test_data = load_data('./data/processed/test_bow.csv')
 
     X_test = test_data.iloc[:,0:-1].values
     y_test = test_data.iloc[:,-1].values
